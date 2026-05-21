@@ -1,4 +1,18 @@
-# Sarcasm Detector Project
+<p align="center">
+  <img src="assets/detective_logo.png" alt="Detektif Sarkanto Logo" width="250"/>
+</p>
+
+<h1 align="center">🔍 Sarcasm Detector Project</h1>
+<h3 align="center"><em>Detektif Sarkanto — Find the sarcasm hiding in every headline</em></h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python" />
+  <img src="https://img.shields.io/badge/Flask-2.2.5-black?style=flat-square&logo=flask" />
+  <img src="https://img.shields.io/badge/TensorFlow-2.13-orange?style=flat-square&logo=tensorflow" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
+</p>
+
+---
 
 ## Table of Contents
 - [Overview](#overview)
