@@ -1,0 +1,22 @@
+# Python and related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.dist-info/
+# Virtual environment
+venv/
+.env/
+.env*/
+# Jupyter notebooks
+.ipynb_checkpoints/
+# macOS files
+.DS_Store
+# build artifacts
+build/
+# Flask instance folder
+instance/
+# Logs
+*.log

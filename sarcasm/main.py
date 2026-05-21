@@ -3,7 +3,7 @@ import random as random
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
-import translators as ts
+import translators as ts  # translators for language translation
 from flask_cors import CORS 
 from flask import Flask, request, render_template, redirect, url_for
 from flask_restful import Resource, Api
@@ -20,7 +20,7 @@ CORS(app)
 # with open('sarcasm_pickle','rb') as r:    
 #     sarcasm_detector = pickle.load(r)
 
-sarcasm_detector = keras.models.load_model('sarcasm-model5.h5', compile=False)
+sarcasm_detector = keras.models.load_model('sarcasm-model5', compile=False)  # Load model from directory
 
 vocab_size = 10000
 embedding_dim = 16

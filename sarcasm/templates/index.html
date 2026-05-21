@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/a6ee498b4c.js" crossorigin="anonymous"></script>
 
     <title>Detektip Sarkanto</title>
-    <link rel="icon" href="static\favicon.png" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', filename='detective_logo.png') }}" type="image/x-icon">
 </head>
 <body>
     <!------------------------------------- Nav Bar-->
@@ -87,7 +87,7 @@
                     <h2>Input Your Headline</h2>
                 </div>
 
-            <form action="http://10.10.10.244:5000/detektifsarkanto" method="POST">
+            <form action="/detektifsarkanto" method="POST">
                 <div class="inputbox">
                     <input maxlength ="80" type="text" name="phrase" placeholder="input your headline here...">
                 </div>
